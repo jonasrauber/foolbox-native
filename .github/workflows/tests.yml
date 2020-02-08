@@ -20,6 +20,7 @@ jobs:
       with:
         repository: "bethgelab/foolbox"
         path: "foolbox"
+        ref: "v2.4.0"
     - uses: actions/checkout@v2
       with:
         path: "foolbox_native"
